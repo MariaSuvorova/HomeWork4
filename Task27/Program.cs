@@ -38,4 +38,4 @@ int GetSumOfDigits(int number)
     return sum;
 }
 
-Console.WriteLine($"сумма цифр числа {number} равна {GetSumOfdigit(number)}");
+Console.WriteLine($"сумма цифр числа {number} равна {GetSumOfDigits(number)}");
