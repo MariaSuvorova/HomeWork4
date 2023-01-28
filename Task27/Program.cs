@@ -25,17 +25,17 @@ int GetNumber(string message)
 
 int number = GetNumber("Введите число");
 
-int GetSumOfFigure(int number)
+int GetSumOfDigits(int number)
 {
     int sum = 0;
-    int figure = 0;
+    int digit = 0;
     while (number>=1)
     {
-        figure = number % 10;
-        sum = sum + figure;
+        digit = number % 10;
+        sum = sum + digit;
         number = number / 10;
     }   
     return sum;
 }
 
-Console.WriteLine($"сумма цифр числа {number} равна {GetSumOfFigure(number)}");
+Console.WriteLine($"сумма цифр числа {number} равна {GetSumOfdigit(number)}");
